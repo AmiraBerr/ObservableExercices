@@ -1,5 +1,9 @@
 .background{
+<<<<<<< HEAD
   background-image: url('https://github.com/AmiraBerr/ObservableExercices/blob/master/src/assets/images/13.jpg');
+=======
+  background-image: url('https://raw.githubusercontent.com/AmiraBerr/ObservableExercices/master/src/assets/images/13.jpg');
+>>>>>>> 03dc093953359810dcb41f9dde01125d4daacc81
   height: 100%;
   width: 100%;
   margin-top: -50px;
@@ -9,7 +13,11 @@
 }
 .clock {
   top: 70px;
+<<<<<<< HEAD
   background:  url('https://github.com/AmiraBerr/ObservableExercices/commit/937e41aebd930a7680b1a3a68b29a38fe66cbb9b') no-repeat center;
+=======
+  background:  url('https://raw.githubusercontent.com/AmiraBerr/ObservableExercices/master/src/assets/images/16.jpg') no-repeat center;
+>>>>>>> 03dc093953359810dcb41f9dde01125d4daacc81
   width: 25rem;
   height: 25rem;
   border:20px solid black;
