@@ -5,10 +5,10 @@
   <div id="carouselExampleSlidesOnly" class="carousel slide mt-2 mb-5 ml-5 mr-5 " data-ride="carousel" style="margin-left: 15vw;">
       <div class="carousel-inner">
         <div class="carousel-item active" *ngFor="let c of onemovie"  (click)="OpenMovie(c.id);">
-            <img src={{getImage(c.poster_path)}} class="d-block" alt="..." style="width: 50vw; height: 300px; ">
+            <img src={{getImage(c.poster_path)}} class="d-block" alt="..." style="width: 50vw; height: 420px; ">
         </div>
         <div class="carousel-item" *ngFor="let c of moviewithoutone" (click)="OpenMovie(c.id);">
-          <img src={{getImage(c.poster_path)}} class="d-block" alt="..." style="width: 50vw; height: 300px;" >
+          <img src={{getImage(c.poster_path)}} class="d-block" alt="..." style="width: 50vw; height: 420px;" >
       </div>
       </div>
   </div>
