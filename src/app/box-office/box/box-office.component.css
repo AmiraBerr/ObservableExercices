@@ -1,5 +1,28 @@
-.background {
+
+.bg{
   width: 100%;
   height: 100%;
-  background-color: black;
-  }
+  background-image: url('/assets/images/111.jpg');
+  height: 100%;
+  width: 100%;
+  top:0;
+  margin-right:0;
+  background-repeat: no-repeat;
+}
+
+.container{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.781);
+  color: black;
+
+}
+
+p{
+  margin-top: 5px;
+  text-align: center;
+  font-family:'Chalkduster', fantasy;
+  font-size: 60px;
+}
+
+
+
