@@ -1,0 +1,14 @@
+<div class="background">
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-ride="carousel" style="margin-left: 15vw;">
+      <div class="carousel-inner">
+        <div class="carousel-item active" *ngFor="let c of onemovie"  (click)="OpenMovie(c.id);">
+            <img src={{getImage(c.poster_path)}} class="d-block" alt="..." style="width: 60vw; height: 400px; ">
+        </div>
+        <div class="carousel-item" *ngFor="let c of moviewithoutone" (click)="OpenMovie(c.id);">
+          <img src={{getImage(c.poster_path)}} class="d-block" alt="..." style="width: 60vw; height: 400px;" >
+      </div>
+      </div>
+  </div>
+
+  </div>

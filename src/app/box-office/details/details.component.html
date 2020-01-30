@@ -1,0 +1,18 @@
+<div class="card  mt-2">
+  <div class=" col-lg-6 offset-lg-3" *ngFor="let c of video" style="width: 60vw;">
+      <iframe  height="315" [src]="getEmbedUrl(c.key)"
+      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen style="width: 100%;">
+      </iframe>
+  </div>
+  <div class="container">
+  <div class="d-flex justify-content-center bd-highlight " style="height: 50px;">
+    <div class="p-2 bd-highlight"  *ngFor="let c of images">
+        <img   src={{getImage(c.file_path)}} alt="pas"/>
+    </div>
+   </div>
+   </div>
+</div>
+
+
+
